@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/incidents"
+            android:icon="@drawable/icon_incidents"
+            android:title="Incidents" />
+        <item
+            android:id="@+id/roadworks"
+            android:icon="@drawable/icon_roadworks"
+            android:title="Roadworks" />
+        <item
+            android:id="@+id/future_roadworks"
+            android:icon="@drawable/icon_future_roadworks"
+            android:title="Future Roadworks" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/animation"
+                android:icon="@drawable/icon_animation"
+                android:title="Animation" />
+            <item
+                android:id="@+id/navigation_about"
+                android:icon="@drawable/icon_nav_about"
+                android:title="About" />
+            <item
+                android:id="@+id/navigation_refresh"
+                android:icon="@drawable/icon_nav_refresh"
+                android:title="Refresh" />
+        </menu>
+    </item>
+</menu>

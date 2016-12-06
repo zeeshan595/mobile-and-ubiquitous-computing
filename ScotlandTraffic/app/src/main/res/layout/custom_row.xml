@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_height="55dp"
+    app:srcCompat="@drawable/icon_incidents"
+    android:id="@+id/customImage"
+    android:layout_weight="0.00"
+    android:layout_width="wrap_content"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:id="@+id/customText"
+    android:textSize="20sp" />
+
+</LinearLayout>
